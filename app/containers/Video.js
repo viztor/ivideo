@@ -4,8 +4,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { webview, ipcRenderer } from 'electron';
 
-import Channel from './Channel';
-import ToolBar from './ToolBar';
 import Frame from './Frame';
 import * as sourceActions from '../actions/source';
 
